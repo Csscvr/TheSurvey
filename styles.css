@@ -12,10 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     perspective: 1000px;
-    position: absolute; /* Centering the scene */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centering the scene */
+    position: relative; /* Changed to relative for proper centering */
 }
 
 .room {
@@ -24,6 +21,7 @@ body {
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.5s;
+    transform: translateZ(-100px); /* Move the room back to center it */
 }
 
 .wall {
@@ -44,5 +42,4 @@ body {
     height: 200px;
     background-color: brown; /* Floor color */
     transform: rotateX(90deg) translateY(100px); /* Positioning the floor */
-    bottom: 0; /* Ensure the floor is at the bottom */
 }
