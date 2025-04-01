@@ -40,5 +40,5 @@ body {
     width: 200px;
     height: 200px;
     background-color: brown; /* Floor color */
-    transform: rotateX(90deg) translateY(0px); /* Positioning the floor */
+    transform: rotateX(90deg) translateY(0px) translateX(0px); /* Positioning the floor */
 }
