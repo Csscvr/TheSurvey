@@ -26,19 +26,18 @@ body {
 .wall {
     position: absolute;
     width: 200px;
-    height: 200px;
-    background-color: gray; /* Wall color */
+    height: 200px;*/
 }
 
-.front { transform: rotateY(  0deg) translateZ(100px); }
-.back  { transform: rotateY(180deg) translateZ(100px); }
-.left  { transform: rotateY(-90deg) translateZ(100px); }
-.right { transform: rotateY( 90deg) translateZ(100px); }
+.front { transform: rotateY(  0deg) translateZ(100px); background-color: yellow;}
+.back  { transform: rotateY(180deg) translateZ(100px); background-color: blue;}
+.left  { transform: rotateY(-90deg) translateZ(100px); background-color: green;}
+.right { transform: rotateY( 90deg) translateZ(100px); background-color: red;}
 
 .floor {
     position: center;
     width: 200px;
     height: 200px;
-    background-color: brown; /* Floor color */
+    background-color: black; /* Floor color */
     transform: rotateX(90deg) translateY(0px) translateX(0px) translateZ(-100px); /* Positioning the floor */
 }
