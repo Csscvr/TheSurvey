@@ -39,7 +39,7 @@ body {
     width: 200px;
     height: 200px;
     background-color: rgb(0, 0, 0); /* Floor color */
-    transform: rotateX(90deg) translateY(0px) translateX(0px) translateZ(-100px); /* Positioning the floor */
+    transform: rotateX(90deg) translateY(0px) translateX(0px) translateZ(100px); /* Positioning the floor */
 }
 
 .roof {
@@ -47,5 +47,5 @@ body {
     width: 200px;
     height: 200px;
     background-color: rgb(255, 0, 255); /* Roof color */
-    transform: rotateX(90deg) translateY(0px) translateX(0px) translateZ(50px); /* Positioning the roof */
+    transform: rotateX(90deg) translateY(0px) translateX(0px) translateZ(100px); /* Positioning the roof */
 }
